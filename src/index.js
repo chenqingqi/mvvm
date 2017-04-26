@@ -7,8 +7,6 @@ window.$   = require('../libs/jquery.js');
 
 window.Vue = require('../libs/vue.min.js');
 
-window.Router = require('../libs/vue-router.js');
-
 /**
  * 入口模块
  */
@@ -33,6 +31,4 @@ window.onload = function()
 	require('./menu.js');
 	
 	app.menu.rander();
-	
-	require('./router.js');
 }
